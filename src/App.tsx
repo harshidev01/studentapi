@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="flex flex-row">
+      
       <div className="p-5"><Table studentsData={studentsData} setAddStudentView={setAddStudentView} getStudents={getStudents}/></div> 
       {
         true && <div><AddStudent getStudents={getStudents} setAddStudentView={setAddStudentView}/></div>
